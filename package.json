@@ -1,0 +1,18 @@
+{
+  "name": "shwayngway",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0",
+    "vue-mailchimp-email-signup-form": "^1.1.2"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "vue-svg-loader": "^0.16.0",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
