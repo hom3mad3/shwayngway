@@ -1,6 +1,6 @@
 <template>
   <nav class="nav">
-    <g-link class="nav__link" to="/" v-if="">Subscribe</g-link>
+    <g-link class="nav__link" to="/">Subscribe</g-link>
     <g-link class="nav__link" to="/contact/">Contact</g-link>
     <g-link class="nav__link" to="/gdpr/">GDPR</g-link>
     <a class="nav__link" href="https://instagram.com/shwayngway" target="_blank" rel="noopener">
@@ -22,12 +22,6 @@
         }
       }
     },
-    mounted() {
-      console.info('App this router:', this.$router)
-      console.info('App currentRoute:', this.$router.currentRoute)
-      console.log(this.$router.currentRoute.path); 
-      console.log(this.$router.path); 
-    }
   }
 </script>
 
