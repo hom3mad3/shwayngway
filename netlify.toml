@@ -1,2 +1,2 @@
 [build]
-  functions = "form-handler"
+  functions = "functions"

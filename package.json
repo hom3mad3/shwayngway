@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "axios": "^0.21.1",
-    "querystring": "^0.2.0",
+    "crypto": "^1.0.1",
     "vue-svg-loader": "^0.16.0",
     "vue-template-compiler": "^2.6.12"
   }
