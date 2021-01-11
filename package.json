@@ -4,7 +4,9 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "lambda-build": "netlify-lambda build functions",
+    "lambda-serve": "netlify-lambda serve functions"
   },
   "dependencies": {
     "gridsome": "^0.7.0",
@@ -12,6 +14,7 @@
   },
   "devDependencies": {
     "axios": "^0.21.1",
+    "querystring": "^0.2.0",
     "vue-svg-loader": "^0.16.0",
     "vue-template-compiler": "^2.6.12"
   }
