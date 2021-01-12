@@ -74,7 +74,7 @@ query {
   }
 
   h2 {
-    font-size: calc(1em * var(--text-multiplier, 1));
+    font-size: calc(0.9em * var(--text-multiplier, 1));
   }
 
 #app {

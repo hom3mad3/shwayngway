@@ -11,7 +11,7 @@
         <input class="subscribe__input subscribe__input--reset" placeholder="e-mail address" type="email" @input="setEmail($event.target.value)" />
         <button class="subscribe__submit" type="submit">Subscribe for good news</button>
         <div v-if="error">{{ error }}</div>
-        <div v-if="success">Yay!</div>
+        <div v-if="success">Thank you</div>
         <div v-if="loading">Loading…</div>
       </form>
     </template>
@@ -32,7 +32,6 @@ export default {
 .subscribe__container {
   display: block;
   color: black;
-  font-size: calc(1em * var(--text-multiplier, 1));
   max-width: 400px;
   margin: 0 auto;
 }
@@ -50,7 +49,7 @@ export default {
 
 .subscribe__input {
   color:#000000;
-  font-size: calc(0.8em * var(--text-multiplier, 1));
+  font-size: calc(1em * var(--text-multiplier, 1));
   font-family: "Din";
   border-bottom: 1px black solid;
   line-height: 1.5;
@@ -78,7 +77,7 @@ export default {
   background-color: #7ac943;
   padding: 10px 20px;
   width: 100%;
-  font-size: calc(0.8em * var(--text-multiplier, 1));
+  font-size: calc(1em * var(--text-multiplier, 1));
   font-family: "Din";
   border: 2px solid transparent;
   margin: 10px 0;
@@ -101,6 +100,13 @@ export default {
     padding: 0;
     position: absolute;
     width: 1px;
+}
+
+@media (max-width: 760px) {
+  .subscribe__input,
+  .subscribe__submit {
+    font-size: calc(1.2em * var(--text-multiplier, 1));
+  }
 }
 
 </style>

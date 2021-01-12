@@ -51,9 +51,4 @@
   .active--exact {
     display: none;
   }
-
-
-  @media (max-width: 760px) {
- 
-  }
 </style>
