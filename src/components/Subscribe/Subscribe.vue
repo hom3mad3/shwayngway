@@ -84,6 +84,8 @@ export default {
   color: black;
   font-size: calc(1em * var(--text-multiplier, 1));
   text-transform: uppercase;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .subscribe__title {
@@ -99,7 +101,7 @@ export default {
 
 .subscribe__input {
   color:#000000;
-  font-size: calc(1em * var(--text-multiplier, 1.2));
+  font-size: calc(0.8em * var(--text-multiplier, 1));
   font-family: "Din";
   border-bottom: 1px black solid;
   line-height: 1.5;
@@ -127,7 +129,7 @@ export default {
   background-color: #7ac943;
   padding: 10px 20px;
   width: 100%;
-  font-size: calc(1em * var(--text-multiplier, 1.2));
+  font-size: calc(0.8em * var(--text-multiplier, 1));
   font-family: "Din";
   border: 2px solid transparent;
   margin: 10px 0;

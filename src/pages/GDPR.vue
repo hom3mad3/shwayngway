@@ -1,7 +1,8 @@
 <template>
   <Layout>
 
-  <h1 >GDPR</h1>
+<div class="content-mt">
+  <h1 class="hidden" >GDPR</h1>
   SHWAYNGWAY, Ltd. (hereinafter referred to as “the Company”)
   shall observe the Act on the Protection of Personal Information
   in operating the Company’s website “shwayngway.com”
@@ -12,7 +13,7 @@
   who use the Site.
  
 
-  <h2>COLLECTION OF PERSONAL INFORMATION</h2>
+  <h2 class="fw-normal">COLLECTION OF PERSONAL INFORMATION</h2>
   The Company shall collect the following personal information
   from customers using our Site:
   1) Information on creating accounts
@@ -26,7 +27,7 @@
   zone settings, etc.
 
     
-    <h2>PURPOSE OF USING CUSTOMER INFORMATION</h2>
+    <h2 class="fw-normal">PURPOSE OF USING CUSTOMER INFORMATION</h2>
   
       The Company shall collect and use customer information for
       delivering our newsletter.
@@ -36,7 +37,7 @@
       Personal Information.
 
 
-    <h2>OUTSOURCING OF HANDLING OF PERSONAL INFORMATION</h2>
+    <h2 class="fw-normal">OUTSOURCING OF HANDLING OF PERSONAL INFORMATION</h2>
  
       The Company may outsource operations related to the handling
       of all or part of personal information to external parties, within
@@ -49,7 +50,7 @@
       measures.
   
 
-    <h2>USE OF COOKIES</h2>
+    <h2 class="fw-normal">USE OF COOKIES</h2>
  
       The Company uses cookies to distinguish customers from other
       Site users. Cookies are small text data composed of characters
@@ -66,17 +67,17 @@
       cookies will not be able to access all or parts of our Site.
     
 
-    <h2>MODIFICATION OF THE PRIVACY POLICY</h2> 
+    <h2 class="fw-normal">MODIFICATION OF THE PRIVACY POLICY</h2> 
  
       The Company may update the Privacy Policy as appropriate.
    
 
-    <h2>DELETION AND CORRECTION OF PERSONAL INFORMATION</h2>
+    <h2 class="fw-normal">DELETION AND CORRECTION OF PERSONAL INFORMATION</h2>
       If customers need to change their names or e-mail addresses
       or both, please choose UNSUBSCRIBE to remove the initial
       personal information of customers’ name and e-mail address
       and re-register new customers’ name and new e-mail address.
-
+</div>
 
     </Layout>
 </template>
@@ -88,3 +89,19 @@ export default {
   }
 }
 </script>
+
+<style>
+.content-mt {
+  margin-top: 70px;
+}
+
+.fw-normal {
+  font-weight: 400;
+}
+
+ @media (max-width: 760px) {
+  .content-mt {
+    margin-top: 20px;
+  }
+  }
+</style>

@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "gridsome": "^0.7.0",
-    "vue-mailchimp-email-signup-form": "^1.1.2"
+    "vue-mailchimp-email-signup-form": "^1.1.2",
+    "vue-mailchimp-subscribe": "^1.1.0"
   },
   "devDependencies": {
     "axios": "^0.21.1",

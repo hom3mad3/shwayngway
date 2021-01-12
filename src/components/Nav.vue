@@ -30,6 +30,8 @@
     font-size: calc(1em * var(--text-multiplier, 1.5));
     display: flex;
     justify-content: space-between;
+    max-width: 760px;
+    margin: 0 auto;
   }
 
   .nav__link {

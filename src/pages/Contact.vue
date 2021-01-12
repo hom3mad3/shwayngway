@@ -1,17 +1,27 @@
 <template>
   <Layout>
-    <h1>Contact</h1>
-    <h3>E-mail address</h3>
-    <p> <mailto>hello</mailto> </p>
-    <h3>Postal address</h3>
-    <p></p>
+    <Logo/>
+    <h1 class="hidden">Contact</h1>
+    <h2 class="m-0">e-mail address</h2>
+    <p class="m-0">konnichiwa@shwayngway.com</p>
   </Layout>
 </template>
 
 <script>
+import Logo from '../components/Logo.vue';
+
 export default {
   metaInfo: {
     title: 'contact'
-  }
+  },
+  components: {
+    Logo
+  },
 }
 </script>
+
+<style>
+  .m-0 {
+    margin: 0;
+  }
+</style>
