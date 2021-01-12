@@ -119,7 +119,8 @@ const apiRoot = `https://${mailchimpRegion}.api.mailchimp.com/3.0/lists/${mailCh
 
 exports.handler = async (event, context) => {
   try {
-    const formData = JSON.parse(event.body);
+    console.log(event.body);
+    const formData = JSON.parse(JSON.stringify(event.body));
     const email = formData.email;
     if(!email) {
       return { 
