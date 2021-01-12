@@ -2,13 +2,17 @@
   <Layout>
     <h1 class="hidden">Shwayngway, Source d'Espoir</h1>
     <Logo></Logo>
-    <SubTest/>
+
+<form id="newsletter" class="subscribe" action="/.netlify/functions/hello" method="post">
+  <input type="email" id="inputEmail" name='email' placeholder="Enter email to subscribe for FREE" class="email" required autofocus>
+  <button class="button" type="submit">Subscribe</button>
+</form>
+
   </Layout>
 </template>
 
 <script>
 import Logo from '../components/Logo.vue';
-import SubTest from '../components/SubTest.vue';
 
 export default {
   metaInfo: {

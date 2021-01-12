@@ -119,11 +119,12 @@ const apiRoot = `https://${mailchimpRegion}.api.mailchimp.com/3.0/lists/${mailCh
 
 exports.handler = async (event, context) => {
   try {
-    const email = event.queryStringParameters.email;
+    const formData = JSON.parse(event.body);
+    const email = formData.email;
     if(!email) {
       return { 
         statusCode: 500, 
-        body: 'email query paramter required' 
+        body: 'email query parameter required' 
       };
     }
 
