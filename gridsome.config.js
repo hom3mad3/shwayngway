@@ -25,7 +25,7 @@ module.exports = {
       options: {
         id: 'GTM-TZPGNQ5',
         enabled: true,
-        debug: true
+        debug: false
       }
     }
   ]
