@@ -9,7 +9,9 @@
     "lambda-serve": "netlify-lambda serve functions"
   },
   "dependencies": {
+    "@gridsome/plugin-google-analytics": "^0.1.2",
     "gridsome": "^0.7.0",
+    "gridsome-plugin-gtm": "^0.1.1",
     "vue-mailchimp-email-signup-form": "^1.1.2",
     "vue-mailchimp-subscribe": "^1.1.0"
   },

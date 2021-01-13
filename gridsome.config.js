@@ -13,6 +13,21 @@ module.exports = {
     .loader('vue-svg-loader')
 },
   siteName: 'shwayngway',
-  plugins: [],
+  plugins: [
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-187246885'
+      }
+    },
+    {
+      use: 'gridsome-plugin-gtm',
+      options: {
+        id: 'GTM-TZPGNQ5',
+        enabled: true,
+        debug: true
+      }
+    }
+  ]
 
 }
