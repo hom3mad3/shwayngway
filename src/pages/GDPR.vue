@@ -116,7 +116,7 @@ export default {
   }
 
   .p-mb {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 </style>

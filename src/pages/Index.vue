@@ -1,7 +1,11 @@
 <template>
   <Layout>
     <h1 class="hidden">Shwayngway, Source d'Espoir</h1>
-    <a href="/"><Logo /></a>
+    <a href="/"
+      ><Logo /><span class="hidden"
+        >shwayngway, whole leaf, single estate</span
+      ></a
+    >
 
     <Mailchimp />
   </Layout>

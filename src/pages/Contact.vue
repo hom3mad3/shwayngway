@@ -1,6 +1,10 @@
 <template>
   <Layout>
-    <a href="/"><Logo /></a>
+    <a href="/"
+      ><Logo /><span class="hidden"
+        >shwayngway, whole leaf, single estate</span
+      ></a
+    >
     <h1 class="hidden">Contact</h1>
     <p class="m-0 t-c">konnichiwa@shwayngway.com</p>
   </Layout>
