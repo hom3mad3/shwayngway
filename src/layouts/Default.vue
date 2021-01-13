@@ -79,8 +79,6 @@ query {
 
 #app {
   height: 100vh;
-  height: -webkit-fill-available;
-
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
@@ -88,6 +86,12 @@ query {
     'header'
     'main'
     'footer';
+}
+
+@supports (-webkit-touch-callout: none) {
+  #app {
+    height: -webkit-fill-available;
+  }
 }
 
 #app > header {
@@ -111,7 +115,7 @@ query {
 }
 
 #app > section {
-  grid-area: 1 / 2 / 1 / 3;
+  grid-area: 1 / 2 / 1;
 }
 
 .hidden {
