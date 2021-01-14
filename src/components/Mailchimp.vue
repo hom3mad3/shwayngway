@@ -11,7 +11,7 @@
         <label for="mc-subscribe" class="hidden">E-mail address</label>
         <input id="mc-subscribe" class="subscribe__input subscribe__input--reset" placeholder="e-mail address" type="email" @input="setEmail($event.target.value)" />
         <button class="subscribe__submit" type="submit" aria-label="Subscribe for good news">Subscribe for good news</button>
-        <div v-if="error">{{ error }}</div>
+        <div v-if="error" v-html="error">{{ error }}</div>
         <div v-if="success">Thank you</div>
         <div v-if="loading">Loading…</div>
       </form>
