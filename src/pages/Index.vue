@@ -17,7 +17,7 @@ import Mailchimp from "../components/Mailchimp.vue";
 
 export default {
   metaInfo: {
-    title: "shwayngway source d’espoir",
+    title: "source d’espoir",
   },
   components: {
     Logo,
