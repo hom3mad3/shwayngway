@@ -1,7 +1,6 @@
 <template>
   <nav class="nav">
     <g-link class="nav__link" to="/">Subscribe</g-link>
-    <g-link class="nav__link" to="/contact/">Contact</g-link>
     <g-link class="nav__link" to="/gdpr/">GDPR</g-link>
     <a class="nav__link" href="https://instagram.com/shwayngway" target="_blank" rel="noopener">
     Instagram

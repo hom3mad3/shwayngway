@@ -106,7 +106,7 @@ export default {
 @media (max-width: 760px) {
   .subscribe__input,
   .subscribe__submit {
-    font-size: calc(1.2em * var(--text-multiplier, 1));
+    font-size: calc(1.5em * var(--text-multiplier, 1));
   }
 }
 
